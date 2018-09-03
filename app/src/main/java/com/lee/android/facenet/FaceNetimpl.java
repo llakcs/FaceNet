@@ -71,7 +71,6 @@ public class FaceNetimpl implements FaceNetManger {
 
     @Override
     public void Savefeature(final Bitmap bm) {
-
         new AsyncTask<Void, Void, Void>() {
             @Override
             protected Void doInBackground(Void... voids) {

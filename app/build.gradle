@@ -1,9 +1,9 @@
-apply plugin: 'com.android.application'
-
+//apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.lee.android.facenet"
+//        applicationId "com.lee.android.facenet"
         minSdkVersion 19
         targetSdkVersion 27
         versionCode 1
